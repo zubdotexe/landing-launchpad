@@ -72,3 +72,29 @@ nav li a {
     margin-bottom: 37px;
 }
 
+/* action styles */
+
+.action {
+    display: flex;
+    gap: 220px;
+    align-items: center;
+    max-width: 1140px;
+    margin: 116px auto;
+}
+
+.action-title {
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.action-desc {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.action img {
+    border-radius: 48px;
+}
