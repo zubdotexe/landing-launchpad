@@ -144,3 +144,40 @@ nav li a {
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
+
+/* contact section styles */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 71px auto;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 97px;
+    font-weight: bold;
+    max-width: 528px;
+}
+
+.contact-form {
+    max-width: 497px;
+}
+
+.contact input[type="email"], .contact input[type="text"], .contact textarea {
+    /* height: 70px; */
+    font-size: 20px;
+    padding: 20px 32px;
+    display: block;
+    /* width: 100%; */
+    max-width: 497px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact label {
+    font-size: 18px;
+    font-weight: 600;
+}
