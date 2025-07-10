@@ -35,6 +35,13 @@
     font-weight: 900;
 }
 
+/* headers styles */
+
+.header {
+    background-image: url("../images/Hero-bg.png");
+    height: 85vh;
+}
+
 /* nav styles */
 
 nav ul {
@@ -53,3 +60,15 @@ nav ul li {
 nav li a {
     text-decoration: none;
 }
+
+/* banner styles */
+
+.banner {
+    margin: 158px 267.5px 152px 267.5px;
+    text-align: center;
+}
+.banner-title {
+    font-size: 65px;
+    margin-bottom: 37px;
+}
+
