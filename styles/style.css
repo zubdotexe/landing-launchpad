@@ -181,3 +181,31 @@ nav li a {
     font-size: 18px;
     font-weight: 600;
 }
+
+/* footer section styles */
+.footer-bg {
+    background-color: #FFFFFF;
+    padding: 104px 454px;
+}
+
+footer section {
+    max-width: 531px;
+    text-align: center;
+}
+
+.footer-desc {
+    color: #8987A1;
+    margin-top: 8px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 48px;
+    max-width: 401px;
+    margin: 0 auto;
+}
+
+footer div a {
+    color: #8987A1;
+    text-decoration: none;
+}
