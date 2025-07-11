@@ -34,6 +34,12 @@
     cursor: pointer;
 }
 
+.btn-primary:hover {
+    background-color: #252432;
+    color: #F5F8FF;
+    transition: 0.6s;
+}
+
 .logo {
     color: #4E47FF;
     font-weight: 900;
