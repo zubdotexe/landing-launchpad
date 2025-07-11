@@ -271,3 +271,25 @@ footer div a {
 .user-details-text .date {
     color: #B3B3B3;
 }
+
+/* ready to focus better section styles */
+.focus-section {
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    border-radius: 14px;
+    max-width: 1140px;
+    margin: 137px auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.focus-section p {
+    margin: 20px auto;
+}
+
+.focus-section img {
+    width: 840px;
+    border-radius: 48px;
+    display: block;
+    margin-top: 20px;
+}
