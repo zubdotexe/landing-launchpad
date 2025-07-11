@@ -152,6 +152,7 @@ nav li a {
     max-width: 1140px;
     margin: 71px auto;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .contact-title {
@@ -160,21 +161,20 @@ nav li a {
     max-width: 528px;
 }
 
-.contact-form {
-    max-width: 497px;
+.contact form {
+    width: 497px;
 }
 
 .contact input[type="email"], .contact input[type="text"], .contact textarea {
-    /* height: 70px; */
     font-size: 20px;
     padding: 20px 32px;
     display: block;
-    /* width: 100%; */
-    max-width: 497px;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 19px;
     border: none;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .contact label {
